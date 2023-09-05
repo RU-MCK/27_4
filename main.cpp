@@ -11,7 +11,7 @@ class Shape {
   void setShape() {
 	std::cout << "Enter coordinates for the center < X > and < Y >: ";
 	std::cin >> xC >> yC;
-	std::cout << "Enter color for the circle: "
+	std::cout << "Enter color for the shape: "
 			  << "NONE-0, RED-1, BLUE-2, GREEN-3: ";
 	std::cin >> color;
   }
